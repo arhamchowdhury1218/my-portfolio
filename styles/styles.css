@@ -179,44 +179,20 @@ main {
 .what-info-container {
 
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 24px;
 }
 
-.what-div1 {
+.what-div {
 
-    text-align: center;
-    margin: 15px 30px;
+    /* text-align: center; */
+    /* margin: 15px 35px; */
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
 }
 
-.what-div2 {
-
-    text-align: center;
-    margin: 15px 30px;
-    border-radius: 5px;
-    background: #FFF;
-    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-}
-
-.what-div3 {
-
-    text-align: center;
-    margin: 15px 30px;
-    border-radius: 5px;
-    background: #FFF;
-    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-}
-
-.what-div4 {
-
-    text-align: center;
-    margin: 15px 30px;
-    border-radius: 5px;
-    background: #FFF;
-    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-}
 
 .what-title {
 
@@ -238,10 +214,16 @@ main {
 
 /* Summary section */
 
+main section {
+
+    margin-top: 130px;
+}
+
 .summary-container {
 
     display: flex;
     justify-content: space-between;
+    gap: 50px;
 }
 
 
@@ -283,12 +265,55 @@ main {
 
 .btn-primary-CV {
 
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Footer sections */
+
+.footer-colums {
+
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    margin-top: 100px;
+    gap: 100px;
+    /* text-align: center; */
+}
+
+
+.column-headings {
+
+    width: 50%;
+}
+
+.column-headings-1 {
+
+    text-align: center;
+}
+
+.social-media-links{
+
+    text-align: left;
+   
+}
+
+.social-media-links a{
+
+    margin-right: 25px;
+}
+
+.signup-form input,
+textarea {
+
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 30px;
+    color: #757575;
+    border: none;
     border-radius: 5px;
-    background: #FD6E0A;
-    border: 0;
-    color: var(--White-Color, #FFF);
-    font-size: 20px;
-    font-weight: 700;
-    padding: 15px 35px;
-    justify-content: center;
+    background: #FFF;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
 }
