@@ -199,6 +199,7 @@ main {
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
+
 .what-div3 {
 
     text-align: center;
@@ -207,6 +208,7 @@ main {
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
+
 .what-div4 {
 
     text-align: center;
@@ -235,3 +237,58 @@ main {
 
 
 /* Summary section */
+
+.summary-container {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.summary-title {
+
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.university-program {
+
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.address {
+
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.final-description {
+
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.underline {
+
+    width: 558px;
+    height: 1px;
+    background: #D1D1D1;
+}
+
+.btn-primary-CV {
+
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: var(--White-Color, #FFF);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+    justify-content: center;
+}
